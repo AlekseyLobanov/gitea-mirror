@@ -1,4 +1,7 @@
 # Gitea Mirror
+
+[![codecov](https://codecov.io/gh/AlekseyLobanov/gitea-mirror/branch/master/graph/badge.svg?token=WPUV6PLX14)](https://codecov.io/gh/AlekseyLobanov/gitea-mirror)
+
 Key idea for this project is to provide the simplest solution
 to backup all Gitea repositories on daily basis with simple command
 
