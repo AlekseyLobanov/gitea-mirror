@@ -8,5 +8,8 @@
 coverage.txt
 *.pyc
 
+.coverage
+.pytest_cache
+
 .idea
 venv

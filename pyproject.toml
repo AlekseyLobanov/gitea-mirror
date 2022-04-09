@@ -1,0 +1,10 @@
+[tool.black]
+line-length = 80
+target-version = ['py38']
+include = '.pyi?$'
+
+[tool.isort]
+profile = "black"
+py_version = "auto"
+sections = "FUTURE,STDLIB,THIRDPARTY,FIRSTPARTY,LOCALFOLDER"
+known_local_folder = "src"
