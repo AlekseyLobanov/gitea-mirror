@@ -1,8 +1,8 @@
 from tempfile import NamedTemporaryFile
 
-from src.config import read_ini_config, Config
-
 import pytest
+
+from src.config import Config, read_ini_config
 
 
 @pytest.mark.parametrize(

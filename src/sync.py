@@ -1,6 +1,6 @@
-from .models import GiteaRepository
-
 from typing import List
+
+from .models import GiteaRepository
 
 
 class SyncProcessor:

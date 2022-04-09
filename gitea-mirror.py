@@ -1,12 +1,12 @@
 import os.path
 import sys
-from src.gitea_api import GiteaApi
-from src.repository_name import get_repository_name, is_valid_repository_names
-from src.config import Config, read_ini_config
-from src.models import GiteaRepository
-from src.git import git_pull, git_clone
-
 from os import makedirs
+
+from src.config import Config, read_ini_config
+from src.git import git_clone, git_pull
+from src.gitea_api import GiteaApi
+from src.models import GiteaRepository
+from src.repository_name import get_repository_name, is_valid_repository_names
 
 BASE_PATH = "out"
 FORMAT = "{owner}/{name}"

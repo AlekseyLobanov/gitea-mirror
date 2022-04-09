@@ -1,10 +1,10 @@
 from typing import List
-from .models import GiteaRepository
 from urllib.parse import urljoin
-from pydantic import parse_obj_as
-
 
 import requests
+from pydantic import parse_obj_as
+
+from .models import GiteaRepository
 
 
 class GiteaApi:

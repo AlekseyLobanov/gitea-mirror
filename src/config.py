@@ -14,6 +14,7 @@ ssh_key=/home/user/.ssh/id_rsa.pub
 
 import configparser
 import os
+
 from .models import Config
 
 MAIN_SECTION = "main"

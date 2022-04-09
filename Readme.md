@@ -22,7 +22,7 @@ Other methods are not supporting:
 **Security notice.**
 This application uses SSH as git transport layer.
 It is safe enough with right use,
-and for right use you need to save 
+and for right use you need to save
 git server ssh digest (~/.ssh/known_hosts file).
 To do this you just need to clone any repository over ssh first
 

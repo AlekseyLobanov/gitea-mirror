@@ -1,7 +1,7 @@
-from .models import GiteaRepository, GiteaUser
 import datetime
-
 from typing import List
+
+from .models import GiteaRepository, GiteaUser
 
 
 def _get_test_repository() -> GiteaRepository:
